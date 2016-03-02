@@ -1,0 +1,12 @@
+---
+- hosts: all
+  become: yes
+  gather_facts: yes
+  vars_prompt:
+    - name: redhat_username
+      prompt: Enter Red Hat Username
+    - name: redhat_password
+      prompt: Enter Red Hat Password
+      private: yes
+  roles:
+    - base
