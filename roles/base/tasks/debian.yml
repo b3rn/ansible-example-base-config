@@ -1,5 +1,5 @@
 ---
-- name: Install base packages for Debian family OSs
+- name: Install base packages (Debian)
   apt:
     name: "{{ item }}"
     update_cache: yes
