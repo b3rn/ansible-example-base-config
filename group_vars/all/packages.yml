@@ -1,0 +1,4 @@
+common_base_packages:
+  - htop
+  - git
+  - rsync

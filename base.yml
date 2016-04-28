@@ -3,10 +3,10 @@
   become: yes
   gather_facts: yes
   vars_prompt:
-    - name: redhat_username
-      prompt: Enter Red Hat Username
-    - name: redhat_password
-      prompt: Enter Red Hat Password
+    - name: rhn_username
+      prompt: Enter RHN Username
+    - name: rhn_password
+      prompt: Enter RHN Password
       private: yes
   roles:
     - base
