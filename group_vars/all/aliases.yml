@@ -1,2 +1,0 @@
-is_debian: ansible_os_family == 'Debian'
-is_redhat: ansible_os_family == 'RedHat'

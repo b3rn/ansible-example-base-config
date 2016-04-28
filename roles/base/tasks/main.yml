@@ -1,6 +1,0 @@
----
-- include: rhel.yml
-  when: is_redhat
-
-- include: debian.yml
-  when: is_debian

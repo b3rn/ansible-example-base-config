@@ -1,0 +1,4 @@
+---
+- src: https://github.com/wtcross/ansible-example-role-base.git
+  name: base
+  version: master
