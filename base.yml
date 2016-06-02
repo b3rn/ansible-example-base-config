@@ -2,11 +2,5 @@
 - hosts: all
   become: yes
   gather_facts: yes
-  vars_prompt:
-    - name: rhn_username
-      prompt: Enter RHN Username
-    - name: rhn_password
-      prompt: Enter RHN Password
-      private: yes
   roles:
     - base
